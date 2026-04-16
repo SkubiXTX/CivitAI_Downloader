@@ -23,7 +23,7 @@ from urllib.parse import urlencode, unquote, urlparse, parse_qs
 import requests
 
 # Constants
-CIVITAI_API_BASE = "https://civitai.com/api"
+CIVITAI_API_BASE = "https://civitai.red/api"
 ARIA2_CONNECTIONS = 8
 ARIA2_SPLITS = 8
 PROGRESS_INTERVAL = 10
