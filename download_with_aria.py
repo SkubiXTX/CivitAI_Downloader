@@ -329,7 +329,7 @@ class CivitAIDownloader:
         ]
 
         print(f"{STATUS['download']} Downloading {file_path.name}")
-        print(f"{STATUS['info']} Url {resolved_url}")
+        print(f"{STATUS['download']} Url {download_url}")
         print(f"{STATUS['info']} Using {ARIA2_CONNECTIONS} connections")
 
         try:
